@@ -73,7 +73,26 @@ namespace DemoMVVM.Repositories
             return list;
         }
 
+        public void Delete(Person person)
+        {
+            request = "DELETE from person where id=@id";
+            command = new MySqlCommand(request, _connection);
+            command.Parameters.Add(new MySqlParameter("@id", person.Id));
+            if (_connection.State == System.Data.ConnectionState.Closed)
+            {
+                _connection.Open();
 
+            }
+
+            command.ExecuteNonQuery();
+            command.Dispose();
+
+            if (_connection.State == System.Data.ConnectionState.Open)
+            {
+                _connection.Close();
+
+            }
+        }
 
 
     }

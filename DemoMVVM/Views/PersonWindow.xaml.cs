@@ -24,5 +24,15 @@ namespace DemoMVVM.View
             DataContext = personViewModel;
             InitializeComponent();
         }
+
+
+    
+        //private void OnDeleteClick(object sender, RoutedEventArgs e)
+        //{
+        //    if (DataContext is PersonViewModel personViewModel)
+        //    {
+        //        personViewModel.DeleteSelectedPerson();
+        //    }
+        //}
     }
 }

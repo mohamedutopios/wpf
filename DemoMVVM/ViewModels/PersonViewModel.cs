@@ -20,7 +20,7 @@ namespace DemoMVVM.ViewModels
         private Person selectedPerson;
         private PersonRepository personRepository;
         public RelayCommand CommandAjouterPersonne {  get; set; }
-
+        public RelayCommand CommandDeletePersonne { get; set; }
         public string Nom {  get { return nom; } set {  nom = value; RaisePropertyChanged(); } }
         public string Prenom { get { return prenom; } set {  prenom = value; RaisePropertyChanged(); } }
         public ObservableCollection<Person> Personnes { get {  return personnes; } set {  personnes = value;} }
@@ -41,7 +41,7 @@ namespace DemoMVVM.ViewModels
             personRepository = new PersonRepository(Connection.GetMySqlConnection());
             Personnes = new ObservableCollection<Person>(personRepository.FindAll());
             CommandAjouterPersonne = new RelayCommand(ClickValidPerson);
-
+            CommandDeletePersonne = new RelayCommand(DeleteSelectedPerson);
         }
 
         public void ClickValidPerson()
@@ -68,7 +68,20 @@ namespace DemoMVVM.ViewModels
             }
         }
 
-       
+       public void DeleteSelectedPerson()
+        {
+            if (SelectedPerson != null)
+            {
+               personRepository.Delete(SelectedPerson);
+               Personnes.Remove(SelectedPerson);
+
+                SelectedPerson = null;
+                Nom = null;
+                Prenom = null;
+
+            }
+
+        }
 
 
 
