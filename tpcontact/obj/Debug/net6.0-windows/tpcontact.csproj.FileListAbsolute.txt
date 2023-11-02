@@ -1,0 +1,2 @@
+C:\Users\Moham\Documents\wpf\app_demo\tpcontact\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Moham\Documents\wpf\app_demo\tpcontact\obj\Debug\net6.0-windows\tpcontact_MarkupCompile.cache

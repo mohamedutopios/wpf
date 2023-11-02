@@ -1,0 +1,25 @@
+﻿<Window x:Class="panel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:panel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Background="Aqua">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Content="Janvier" Margin="5" Padding="3" Background="Brown" Height="50" Width="50"></Button>
+                <Button Content="Fevrier" Margin="5" Padding="3" Background="Yellow" Height="50" Width="50"></Button>
+                <Button Content="Mars" Margin="5" Padding="3" Background="Green" Height="50" Width="50"></Button>
+                <Button Content="Avril" Margin="5" Padding="3" Background="red" Height="50" Width="50"></Button>
+            </StackPanel>
+            <StackPanel Orientation="Vertical" VerticalAlignment="Bottom">
+                <Button Content="Button1" Margin="5" Padding="3" Background="Brown" Height="50" Width="50" HorizontalAlignment="Left"></Button>
+                <Button Content="Button2" Margin="5" Padding="3" Background="Yellow" Height="50" Width="50" HorizontalAlignment="Right"></Button>
+                <Button Content="Button3" Margin="5" Padding="3" Background="Green" Height="50" Width="50" HorizontalAlignment="Left"></Button>
+                <Button Content="Button4" Margin="5" Padding="3" Background="red" Height="50" Width="50"></Button>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
