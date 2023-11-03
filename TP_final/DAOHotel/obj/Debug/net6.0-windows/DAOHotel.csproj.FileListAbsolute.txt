@@ -1,0 +1,12 @@
+C:\Users\Moham\Documents\dotnet\DotNetAP109-master\DotNetAP109-master\DAOHotel\bin\Debug\net6.0-windows\DAOHotel.deps.json
+C:\Users\Moham\Documents\dotnet\DotNetAP109-master\DotNetAP109-master\DAOHotel\bin\Debug\net6.0-windows\DAOHotel.dll
+C:\Users\Moham\Documents\dotnet\DotNetAP109-master\DotNetAP109-master\DAOHotel\bin\Debug\net6.0-windows\DAOHotel.pdb
+C:\Users\Moham\Documents\dotnet\DotNetAP109-master\DotNetAP109-master\DAOHotel\obj\Debug\net6.0-windows\DAOHotel.csproj.AssemblyReference.cache
+C:\Users\Moham\Documents\dotnet\DotNetAP109-master\DotNetAP109-master\DAOHotel\obj\Debug\net6.0-windows\DAOHotel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Moham\Documents\dotnet\DotNetAP109-master\DotNetAP109-master\DAOHotel\obj\Debug\net6.0-windows\DAOHotel.AssemblyInfoInputs.cache
+C:\Users\Moham\Documents\dotnet\DotNetAP109-master\DotNetAP109-master\DAOHotel\obj\Debug\net6.0-windows\DAOHotel.AssemblyInfo.cs
+C:\Users\Moham\Documents\dotnet\DotNetAP109-master\DotNetAP109-master\DAOHotel\obj\Debug\net6.0-windows\DAOHotel.csproj.CoreCompileInputs.cache
+C:\Users\Moham\Documents\dotnet\DotNetAP109-master\DotNetAP109-master\DAOHotel\obj\Debug\net6.0-windows\DAOHotel.dll
+C:\Users\Moham\Documents\dotnet\DotNetAP109-master\DotNetAP109-master\DAOHotel\obj\Debug\net6.0-windows\refint\DAOHotel.dll
+C:\Users\Moham\Documents\dotnet\DotNetAP109-master\DotNetAP109-master\DAOHotel\obj\Debug\net6.0-windows\DAOHotel.pdb
+C:\Users\Moham\Documents\dotnet\DotNetAP109-master\DotNetAP109-master\DAOHotel\obj\Debug\net6.0-windows\ref\DAOHotel.dll
